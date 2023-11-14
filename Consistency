@@ -1,0 +1,10 @@
+Two types of consistency
+
+1> Strong Consistency => High latency, updated read gurantee(Consistency), less availability
+2> Eventual Consistency => Low latency, updated read gurantee eventually in cretain amount of time(Eventual Consistency), High availability
+
+Video: 
+https://www.youtube.com/watch?v=WZqGS-wczaY&ab_channel=ShiranAfergan
+
+Page:
+https://www.scylladb.com/glossary/eventual-consistency/
