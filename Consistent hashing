@@ -1,0 +1,37 @@
+Defination:
+-----------
+Consistent hashing is a distributed systems technique that operates by assigning the data objects(keys) and nodes(server) a position on a virtual ring structure (hash ring). Consistent hashing minimizes the number of keys to be remapped when the total number of nodes changes.
+
+It is used in the following scenario:
+------------------------------------
+Database sharding
+-----------------
+when we are doing the horizontal sharding then the number of database node keeps on increasing or decreasing based on the number of incoming data load. so here we can use Consistent hashing to handle the dynamically changing data base node.
+
+Load balancer
+------------
+It will used in a situation where number of server/nodes are dynamically changing.
+
+Topic to read
+-------------
+>What is hashing?
+>problem with hashing?
+>why need cosistency hashing?
+>How cosistency hashing works?
+
+All of the above topic will be cleared in :
+------------------------------------------
+Video sequence: 
+v1 ->  https://www.youtube.com/watch?v=cITtFpz3a3Y&list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a&index=25&ab_channel=sudoCODE
+v2 -> https://www.youtube.com/watch?v=oKAU6LaYFhw&list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a&index=27&ab_channel=sudoCODE
+
+<Optional> v3 -> https://www.youtube.com/watch?v=jqUNbqfsnuw&ab_channel=Concept%26%26Coding
+
+Article to read:
+----------------
+https://www.enjoyalgorithms.com/blog/consistent-hashing-in-system-design/
+<optional> https://www.toptal.com/big-data/consistent-hashing
+
+Simple implementation of consistent hashing:
+--------------------------------------------
+https://ishan-aggarwal.medium.com/consistent-hashing-an-overview-and-implementation-in-java-6b47c718558a
